@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>main_longlife</title>
+    <script src="main_longlife.js"></script>
+    <link rel="stylesheet" type="text/css" href="main_longlife.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <h1> <strong><a href="main_longlife.html">LongLife's Winter Vacation PLAN</a></strong> </h1>
+
+    <div>
+      <span style="color: #046fd9; margin: 20px; font-weight: bold;">Mouse Over</span>
+      <span class="real_name" onmouseover="mOver(this)" onmouseout="mOut(this)">My Name is Long Life.</span>
+    </div>
+
+    <div>
+      <span style="color: #046fd9; margin: 20px; font-weight: bold;">Icon</span>
+      <span>TTHave a good Day!</span>
+      <i class="far fa-grin-squint" style="font-size:2em; color: orange;"></i>
+    </div>
+
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+
+      <div id="article">
+        <h2>WEB - CSS</h2>
+        <input type="button" value="night" onclick="
+          nightDayHandler(this);
+        ">
+      </div>
+
+      <span style="color: #046fd9; margin: 20px; font-weight: bold;">POP UP</span>
+      <input type="button" class="lol_btn" style="  box-shadow:3px 4px #046fd9;
+        text-shadow: 2px 2px 0.5px gray;" value="LoL Story" onclick="showPopup();"/>
+
+    </div>
+
+    <script type="text/javascript">
+      Links.SetColor('hotpink');
+    </script>
+  </body>
+</html>
